@@ -6,6 +6,6 @@
 	  Use the lua language server in VSCode to interact with its definitions.
 	  
 	  Usage:
-		---@module 'SGG_Modding-Hades2GameDef'
-		rom.game = rom.game
+		---@module 'SGG_Modding-Hades2GameDef-Globals'
+		local game = rom.game
 --]]
