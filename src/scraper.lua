@@ -58,7 +58,7 @@ for k,v in pairs(_G) do
 	end
 end
 
-local folder = _PLUGIN.plugins_mod_folder_path
+local folder = _PLUGIN.plugins_data_mod_folder_path
 rom.path.create_directory(folder .. '/Scripts')
 
 local function populate_file(file,meta,defs)
