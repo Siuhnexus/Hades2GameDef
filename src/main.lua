@@ -7,5 +7,5 @@
 	  
 	  Usage:
 		---@module 'SGG_Modding-Hades2GameDef-Globals'
-		local game = rom.game
+		rom.game = rom.game
 --]]
