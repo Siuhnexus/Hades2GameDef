@@ -1,5 +1,49 @@
 ---@meta SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic
 local game = {}
 
+function game.OpenNoUpgradeInfoScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.OpenNoUpgradeInfoScreen ...
+
+function game.ConfirmExitNoUpgradeInfoScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.ConfirmExitNoUpgradeInfoScreen ...
+
+function game.ConfirmExitCardUpgradeInfoScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.ConfirmExitCardUpgradeInfoScreen ...
+
+function game.OpenBelowLimitScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.OpenBelowLimitScreen ...
+
+function game.CloseGraspLimitScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.CloseGraspLimitScreen ...
+
+function game.OpenCardUpgradeInfoScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.OpenCardUpgradeInfoScreen ...
+
+function game.CancelExitNoUpgradeInfoScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.CancelExitNoUpgradeInfoScreen ...
+
+function game.CloseMetaUpgradeCardPromptScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.CloseMetaUpgradeCardPromptScreen ...
+
+function game.CancelExitMetaUpgradeCardPrompt(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.CancelExitMetaUpgradeCardPrompt ...
+
+function game.OpenGraspLimitScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.OpenGraspLimitScreen ...
+
+function game.ConfirmExitMetaUpgradeCardPrompt(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.ConfirmExitMetaUpgradeCardPrompt ...
+
+function game.CancelExitBelowLimitScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.CancelExitBelowLimitScreen ...
+
+function game.CancelExitCardUpgradeInfoScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.CancelExitCardUpgradeInfoScreen ...
+
+function game.ConfirmExitBelowLimitScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.ConfirmExitBelowLimitScreen ...
+
+function game.OpenMetaUpgradeCardPromptScreen(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenLogic.OpenMetaUpgradeCardPromptScreen ...
 
 return game

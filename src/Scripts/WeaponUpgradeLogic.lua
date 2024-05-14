@@ -1,5 +1,49 @@
 ---@meta SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic
 local game = {}
 
+function game.OpenWeaponUpgradeScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.OpenWeaponUpgradeScreen ...
+
+function game.GetWeaponUpgradeLevel(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.GetWeaponUpgradeLevel ...
+
+function game.EquipLastWeaponUpgrade(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.EquipLastWeaponUpgrade ...
+
+function game.SelectWeaponUpgrade(a, b, c) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.SelectWeaponUpgrade ...
+
+function game.MouseOverWeaponUpgrade(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.MouseOverWeaponUpgrade ...
+
+function game.IsWeaponUpgradeAtMax(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.IsWeaponUpgradeAtMax ...
+
+function game.UnequipWeaponUpgrade() end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.UnequipWeaponUpgrade ...
+
+function game.UpdateWeaponUpgradeButtons(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.UpdateWeaponUpgradeButtons ...
+
+function game.GetEquippedWeapon() end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.GetEquippedWeapon ...
+
+function game.EquipWeaponUpgrade(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.EquipWeaponUpgrade ...
+
+function game.CloseWeaponUpgradeScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.CloseWeaponUpgradeScreen ...
+
+function game.MouseOffWeaponUpgrade(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.MouseOffWeaponUpgrade ...
+
+function game.HandleWeaponUpgradeSelection(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.HandleWeaponUpgradeSelection ...
+
+function game.GetWeaponKitAnimation(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.GetWeaponKitAnimation ...
+
+function game.HasAnyAspectUnlocked(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeLogic.HasAnyAspectUnlocked ...
 
 return game

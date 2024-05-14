@@ -1,5 +1,49 @@
 ---@meta SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic
 local game = {}
 
+function game.UpdateBoonInfoPageButtons(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.UpdateBoonInfoPageButtons ...
+
+function game.BoonInfoScreenPrevious(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.BoonInfoScreenPrevious ...
+
+function game.BoonInfoScreenUpdateTooltipToggle(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.BoonInfoScreenUpdateTooltipToggle ...
+
+function game.CreateTraitRequirements(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.CreateTraitRequirements ...
+
+function game.MouseOffBoonInfoItem(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.MouseOffBoonInfoItem ...
+
+function game.BoonInfoSort(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.BoonInfoSort ...
+
+function game.CreateBoonInfoButton(a, b, c) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.CreateBoonInfoButton ...
+
+function game.CreateTraitRequirementList(a, b, c, d, e) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.CreateTraitRequirementList ...
+
+function game.MouseOverBoonInfoItem(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.MouseOverBoonInfoItem ...
+
+function game.ShowBoonInfoScreen(a, b, c, d) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.ShowBoonInfoScreen ...
+
+function game.BoonInfoScreenToggleTooltips(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.BoonInfoScreenToggleTooltips ...
+
+function game.BoonInfoScreenNext(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.BoonInfoScreenNext ...
+
+function game.CreateBoonInfoButtons(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.CreateBoonInfoButtons ...
+
+function game.CloseBoonInfoScreen(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.CloseBoonInfoScreen ...
+
+function game.BoonInfoPopulateTraits(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BoonInfoLogic.BoonInfoPopulateTraits ...
 
 return game

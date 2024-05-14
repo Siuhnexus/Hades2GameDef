@@ -1,5 +1,46 @@
 ---@meta SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation
 local game = {}
 
+function game.MoonDustStartPresentation() end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.MoonDustStartPresentation ...
+
+function game.GoldStatePresentation(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.GoldStatePresentation ...
+
+function game.BiomeStateStartedPresentation(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.BiomeStateStartedPresentation ...
+
+function game.MoonDustPresentation(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.MoonDustPresentation ...
+
+function game.DimRainPresentation(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.DimRainPresentation ...
+
+function game.BloodMoonBiomeStartPresentation() end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.BloodMoonBiomeStartPresentation ...
+
+function game.BloodMoonPresentation(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.BloodMoonPresentation ...
+
+function game.MeteorStatePresentation(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.MeteorStatePresentation ...
+
+function game.RainEndPresentation() end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.RainEndPresentation ...
+
+function game.UnDimRainPresentation(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.UnDimRainPresentation ...
+
+function game.MeteorStateStartPresentation() end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.MeteorStateStartPresentation ...
+
+function game.ShadeMercStatePresentation(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.ShadeMercStatePresentation ...
+
+function game.RainPresentation(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.RainPresentation ...
+
+function game.GoldStateStartPresentation() end
+---@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStatePresentation.GoldStateStartPresentation ...
 
 return game

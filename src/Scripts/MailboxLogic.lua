@@ -1,5 +1,43 @@
 ---@meta SGG_Modding-Hades2GameDef-Scripts-MailboxLogic
 local game = {}
 
+function game.CheckCharonPointsOwed(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.CheckCharonPointsOwed ...
+
+function game.UpdateMailboxScreenInteractionText(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.UpdateMailboxScreenInteractionText ...
+
+function game.MailboxTimeTick(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.MailboxTimeTick ...
+
+function game.UseMailboxDeliveryReady(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.UseMailboxDeliveryReady ...
+
+function game.MailboxScreenDisplayCategory(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.MailboxScreenDisplayCategory ...
+
+function game.SetupMailboxStatus(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.SetupMailboxStatus ...
+
+function game.MailboxScreenUpdateResourceStatus(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.MailboxScreenUpdateResourceStatus ...
+
+function game.GenerateMailboxItems(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.GenerateMailboxItems ...
+
+function game.UseMailboxObject(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.UseMailboxObject ...
+
+function game.OpenMailboxScreen(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.OpenMailboxScreen ...
+
+function game.HandleMailboxPurchase(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.HandleMailboxPurchase ...
+
+function game.CloseMailboxScreen(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.CloseMailboxScreen ...
+
+function game.MailboxScreenSelectCategory(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-MailboxLogic.MailboxScreenSelectCategory ...
 
 return game

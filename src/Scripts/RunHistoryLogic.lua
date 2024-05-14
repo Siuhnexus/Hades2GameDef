@@ -1,5 +1,49 @@
 ---@meta SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic
 local game = {}
 
+function game.ShowRunHistory(a, b, c, d) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.ShowRunHistory ...
+
+function game.OpenRunHistoryScreen(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.OpenRunHistoryScreen ...
+
+function game.RunHistoryScreenPrevCategory(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.RunHistoryScreenPrevCategory ...
+
+function game.RunHistoryScreenShowTraits(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.RunHistoryScreenShowTraits ...
+
+function game.CloseRunHistoryScreen(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.CloseRunHistoryScreen ...
+
+function game.RunHistoryPrevRun(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.RunHistoryPrevRun ...
+
+function game.RunHistoryScreenSelectCategory(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.RunHistoryScreenSelectCategory ...
+
+function game.UseRunHistoryScreenObject(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.UseRunHistoryScreenObject ...
+
+function game.RunHistoryNextRun(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.RunHistoryNextRun ...
+
+function game.GetMetaUpgradeDataFromTraitName(a) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.GetMetaUpgradeDataFromTraitName ...
+
+function game.RunHistoryScreenShowShrineUpgrades(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.RunHistoryScreenShowShrineUpgrades ...
+
+function game.RunHistoryUpdateArrows(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.RunHistoryUpdateArrows ...
+
+function game.RunHistoryScreenShowCategory(a, b, c) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.RunHistoryScreenShowCategory ...
+
+function game.RunHistoryScreenShowMetaUpgrades(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.RunHistoryScreenShowMetaUpgrades ...
+
+function game.RunHistoryScreenNextCategory(a, b) end
+---@alias SGG_Modding-Hades2GameDef-Scripts-RunHistoryLogic.RunHistoryScreenNextCategory ...
 
 return game
