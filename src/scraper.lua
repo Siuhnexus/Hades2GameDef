@@ -48,9 +48,9 @@ local early = {}
 for k,v in pairs(_G) do
 	early[k] = v
 	if is_base(k) then
-		base[k] = v
+		table.insert(base,k)
 	else
-		engine[k] = v
+		table.insert(engine,k)
 	end
 end
 
@@ -58,28 +58,33 @@ local folder = _PLUGIN.plugins_mod_folder_path
 rom.path.create_directory(folder .. '/Scripts')
 
 local function populate_file(file,meta,defs)
+	table.sort(defs)
 	file:write('---@meta ' .. meta .. '\n')
 	file:write('local game = {}\n\n')
-	for k,v in pairs(defs) do
+	for _,k in ipairs(defs) do
+		local v = _G[k]
 		if is_field(k) and (type(v) == 'thread' or type(v) == 'userdata') then
 			file:write('---@type ' .. type(v) .. '\n')
 			file:write('game.' .. k .. ' = ...\n')
 			file:write('---@alias ' .. meta .. '.' .. k .. ' ...\n\n')
 		end
 	end
-	for k,v in pairs(defs) do
+	for _,k in ipairs(defs) do
+		local v = _G[k]
 		if is_field(k) and type(v) == 'number' then
 			file:write('game.' .. k .. ' = ' .. tostring(v) .. '\n')
 			file:write('---@alias ' .. meta .. '.' .. k .. ' ...\n\n')
 		end
 	end
-	for k,v in pairs(defs) do
+	for _,k in ipairs(defs) do
+		local v = _G[k]
 		if is_field(k) and type(v) == 'string' then
 			file:write('game.' .. k .. ' = "' .. v .. '"\n')
 			file:write('---@alias ' .. meta .. '.' .. k .. ' ...\n\n')
 		end
 	end
-	for k,v in pairs(defs) do
+	for _,k in ipairs(defs) do
+		local v = _G[k]
 		if is_field(k) and type(v) == 'table' then
 			file:write('---@class ' .. meta .. '*' .. k .. '\n\n')
 			file:write('---@type ' .. meta .. '*' .. k .. '\n')
@@ -87,7 +92,8 @@ local function populate_file(file,meta,defs)
 			file:write('---@alias ' .. meta .. '.' .. k .. ' ...\n\n')
 		end
 	end
-	for k,v in pairs(defs) do
+	for _,k in ipairs(defs) do
+		local v = _G[k]
 		if is_field(k) and type(v) == 'function' then
 			file:write('function game.' .. k .. '(' .. get_args(v) .. ') end\n')
 			file:write('---@alias ' .. meta .. '.' .. k .. ' ...\n\n')
@@ -113,7 +119,7 @@ local first = true
 		local defs = {}
 		for k,v in pairs(_G) do
 			if not early[k] then
-				defs[k] = v
+				table.insert(defs,k)
 			end
 			early[k] = v
 		end
@@ -131,7 +137,7 @@ rom.on_import.post(function(name)
 		scripts[name] = defs
 		for k,v in pairs(_G) do
 			if not early[k] then
-				defs[k] = v
+				table.insert(defs,k)
 			end
 			early[k] = v
 		end
