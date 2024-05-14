@@ -5,6 +5,9 @@
 	  Swap this with main.lua to scrape data from the game as it runs
 --]]
 
+if rawget(_ENV,'once') then return end
+rawset(_ENV,'once',true)
+
 local function is_C(f)
 	if type(f) ~= 'function' then return false end
 	local info = debug.getinfo(f,'S')
@@ -22,7 +25,8 @@ local function is_field(k)
 end
 
 local function get_args(f)
-	if type(f) ~= 'function' or is_C(f) then return '' end
+	if type(f) ~= 'function' then return '' end
+	if is_C(f) then return '...' end
 	local info = debug.getinfo(f,'u')
 	local args = {}
 	if info.nparams then

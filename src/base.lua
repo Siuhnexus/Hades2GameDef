@@ -79,133 +79,91 @@ game.table = {}
 game.utf8 = {}
 ---@alias SGG_Modding-Hades2GameDef-Base.utf8 ...
 
-function game.assert() end
+function game.assert(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.assert ...
 
-function game.char(a) end
----@alias SGG_Modding-Hades2GameDef-Base.char ...
-
-function game.collectgarbage() end
+function game.collectgarbage(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.collectgarbage ...
 
 function game.debugprint(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.debugprint ...
 
-function game.dispatch(a, b) end
----@alias SGG_Modding-Hades2GameDef-Base.dispatch ...
-
-function game.dofile() end
+function game.dofile(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.dofile ...
 
-function game.draw(a, b) end
----@alias SGG_Modding-Hades2GameDef-Base.draw ...
-
-function game.eq(a) end
----@alias SGG_Modding-Hades2GameDef-Base.eq ...
-
-function game.error() end
+function game.error(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.error ...
 
-function game.getmetatable() end
+function game.getmetatable(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.getmetatable ...
 
-function game.ipairs() end
+function game.ipairs(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.ipairs ...
 
-function game.isint(a) end
----@alias SGG_Modding-Hades2GameDef-Base.isint ...
-
-function game.load() end
+function game.load(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.load ...
 
-function game.loadfile() end
+function game.loadfile(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.loadfile ...
 
-function game.next() end
+function game.next(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.next ...
 
-function game.notify(a, b) end
----@alias SGG_Modding-Hades2GameDef-Base.notify ...
-
-function game.pairs() end
+function game.pairs(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.pairs ...
 
-function game.pcall() end
+function game.pcall(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.pcall ...
 
-function game.pickle(a) end
----@alias SGG_Modding-Hades2GameDef-Base.pickle ...
-
-function game.print() end
+function game.print(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.print ...
 
-function game.random() end
+function game.random(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.random ...
 
-function game.randomgaussian() end
+function game.randomgaussian(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.randomgaussian ...
 
-function game.randomint() end
+function game.randomint(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.randomint ...
 
-function game.randomseed() end
+function game.randomseed(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.randomseed ...
 
-function game.rawequal() end
+function game.rawequal(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.rawequal ...
 
-function game.rawget() end
+function game.rawget(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.rawget ...
 
-function game.rawlen() end
+function game.rawlen(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.rawlen ...
 
-function game.rawset() end
+function game.rawset(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.rawset ...
 
-function game.require() end
+function game.require(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.require ...
 
-function game.resume(a, b) end
----@alias SGG_Modding-Hades2GameDef-Base.resume ...
-
-function game.round(a, b) end
----@alias SGG_Modding-Hades2GameDef-Base.round ...
-
-function game.select() end
+function game.select(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.select ...
 
-function game.setmetatable() end
+function game.setmetatable(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.setmetatable ...
 
-function game.stringends(a, b) end
----@alias SGG_Modding-Hades2GameDef-Base.stringends ...
-
-function game.thread(a, b, c, d, e, f, g, h, i, ...) end
----@alias SGG_Modding-Hades2GameDef-Base.thread ...
-
-function game.tonumber() end
+function game.tonumber(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.tonumber ...
 
-function game.tostring() end
+function game.tostring(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.tostring ...
 
-function game.type() end
+function game.type(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.type ...
 
-function game.unpickle(a) end
----@alias SGG_Modding-Hades2GameDef-Base.unpickle ...
-
-function game.update(a, b) end
----@alias SGG_Modding-Hades2GameDef-Base.update ...
-
-function game.utf8strlen() end
+function game.utf8strlen(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.utf8strlen ...
 
-function game.wait(a, b, c) end
----@alias SGG_Modding-Hades2GameDef-Base.wait ...
-
-function game.xpcall() end
+function game.xpcall(...) end
 ---@alias SGG_Modding-Hades2GameDef-Base.xpcall ...
 
 return game
