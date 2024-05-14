@@ -8,7 +8,7 @@ base = 'base.lua'
 engine = 'engine.lua'
 load = 'load.lua'
 scripts = 'Scripts'
-decl = compile(r'---@(alias|class|type) SGG_Modding-Hades2GameDef-')
+decl = compile(r'---@(alias|class|type|see) SGG_Modding-Hades2GameDef-')
 repl = r'---@\1 SGG_Modding-Hades2GameDef-Globals-'
 
 with open(output,'w') as defs:
