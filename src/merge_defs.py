@@ -11,7 +11,6 @@ scripts = 'Scripts'
 with open(output,'w') as defs:
     defs.write('---@meta SGG_Modding-Hades2GameDef\n')
     defs.write('local game = {}\n')
-    defs.write('---@diagnostic disable: duplicate-doc-alias\n')
     with open(base,'r') as file:
         defs.write('\n -- Base')
         lines = []
