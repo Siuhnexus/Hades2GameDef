@@ -8,5 +8,8 @@
 	  
 	  Usage:
 		---@module 'SGG_Modding-Hades2GameDef-Globals'
+		local game = rom.game
+	  *    -    -    -    -    -    -    -    -    -    -
+		---@module 'SGG_Modding-Hades2GameDef-Globals'
 		rom.game = rom.game
 --]]
