@@ -49,7 +49,7 @@ local prefix = plugin .. 'Scripts-'
 local scripts = {}
 
 local early = {}
-for k,v in pairs(_G) do
+for k,v in pairs(rom.game) do
 	early[k] = v
 	if is_base(k) then
 		table.insert(base,k)
@@ -66,7 +66,7 @@ local function populate_file(file,meta,defs)
 	file:write('---@meta ' .. meta .. '\n')
 	file:write('local game = {}\n\n')
 	for _,k in ipairs(defs) do
-		local v = _G[k]
+		local v = rom.game[k]
 		if is_field(k) and (type(v) == 'thread' or type(v) == 'userdata') then
 			file:write('---@type ' .. type(v) .. '\n')
 			file:write('game.' .. k .. ' = ...\n')
@@ -74,21 +74,21 @@ local function populate_file(file,meta,defs)
 		end
 	end
 	for _,k in ipairs(defs) do
-		local v = _G[k]
+		local v = rom.game[k]
 		if is_field(k) and type(v) == 'number' then
 			file:write('game.' .. k .. ' = ' .. tostring(v) .. '\n')
 			file:write('---@alias ' .. meta .. '.' .. k .. ' ...\n\n')
 		end
 	end
 	for _,k in ipairs(defs) do
-		local v = _G[k]
+		local v = rom.game[k]
 		if is_field(k) and type(v) == 'string' then
 			file:write('game.' .. k .. ' = "' .. v .. '"\n')
 			file:write('---@alias ' .. meta .. '.' .. k .. ' ...\n\n')
 		end
 	end
 	for _,k in ipairs(defs) do
-		local v = _G[k]
+		local v = rom.game[k]
 		if is_field(k) and type(v) == 'table' then
 			file:write('---@class ' .. meta .. '*' .. k .. '\n\n')
 			file:write('---@type ' .. meta .. '*' .. k .. '\n')
@@ -97,7 +97,7 @@ local function populate_file(file,meta,defs)
 		end
 	end
 	for _,k in ipairs(defs) do
-		local v = _G[k]
+		local v = rom.game[k]
 		if is_field(k) and type(v) == 'function' then
 			file:write('function game.' .. k .. '(' .. get_args(v) .. ') end\n')
 			file:write('---@alias ' .. meta .. '.' .. k .. ' ...\n\n')
@@ -118,10 +118,10 @@ file:close()
 
 local first = true
 
-(rom.game or _G)['OnAnyLoad']{ function() 
+(rom.game or rom.game)['OnAnyLoad']{ function() 
 	if first then
 		local defs = {}
-		for k,v in pairs(_G) do
+		for k,v in pairs(rom.game) do
 			if not early[k] then
 				table.insert(defs,k)
 			end
@@ -139,7 +139,7 @@ rom.on_import.post(function(name)
 	if not scripts[name] then
 		local defs = {}
 		scripts[name] = defs
-		for k,v in pairs(_G) do
+		for k,v in pairs(rom.game) do
 			if not early[k] then
 				table.insert(defs,k)
 			end
