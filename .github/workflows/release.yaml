@@ -49,6 +49,17 @@ jobs:
       - name: Install Thunderstore CLI
         run: dotnet tool install -g tcli
 
+      - name: Set up Python
+        uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d
+        with:
+          python-version: 3.12
+
+      - name: Do the thing
+        run: |
+          cd src/
+          python merge_defs.py
+          rm -rf Scripts base.lua engine.lua load.lua
+
       - name: Build package
         run: |
           tcli build

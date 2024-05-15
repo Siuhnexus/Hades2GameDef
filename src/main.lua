@@ -4,7 +4,7 @@
 --[[
 	  This file is intentionally blank, this plugin does nothing.
 	  Use the lua language server in VSCode to interact with its definitions.
-	  Works best if you consolidate the files, use `merge_defs.py`, then delete the `Scripts` folder.
+	  The definitions are very large, so it may take some time for VSCode to load it.
 	  
 	  Usage:
 		---@module 'SGG_Modding-Hades2GameDef-Globals'
