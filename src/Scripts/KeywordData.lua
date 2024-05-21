@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-KeywordData
+---@meta game-Scripts-KeywordData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-KeywordData*KeywordList
+---@class game-Scripts-KeywordData*KeywordList
 
----@type SGG_Modding-Hades2GameDef-Scripts-KeywordData*KeywordList
+---@type game-Scripts-KeywordData*KeywordList
 game.KeywordList = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-KeywordData.KeywordList ...
+---@alias game-Scripts-KeywordData.KeywordList ...
 
 return game

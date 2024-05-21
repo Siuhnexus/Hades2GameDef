@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-TraitData_Poseidon
+---@meta game-Scripts-TraitData_Poseidon
 local game = {}
 
 return game

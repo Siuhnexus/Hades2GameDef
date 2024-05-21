@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-FishingData
+---@meta game-Scripts-FishingData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-FishingData*FishingData
+---@class game-Scripts-FishingData*FishingData
 
----@type SGG_Modding-Hades2GameDef-Scripts-FishingData*FishingData
+---@type game-Scripts-FishingData*FishingData
 game.FishingData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-FishingData.FishingData ...
+---@alias game-Scripts-FishingData.FishingData ...
 
 return game

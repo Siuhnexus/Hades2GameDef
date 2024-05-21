@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WorldUpgradeData_Story
+---@meta game-Scripts-WorldUpgradeData_Story
 local game = {}
 
 return game

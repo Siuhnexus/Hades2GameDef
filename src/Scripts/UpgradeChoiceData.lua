@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-UpgradeChoiceData
+---@meta game-Scripts-UpgradeChoiceData
 local game = {}
 
 return game

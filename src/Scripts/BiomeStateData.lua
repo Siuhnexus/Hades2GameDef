@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-BiomeStateData
+---@meta game-Scripts-BiomeStateData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-BiomeStateData*BiomeStateData
+---@class game-Scripts-BiomeStateData*BiomeStateData
 
----@type SGG_Modding-Hades2GameDef-Scripts-BiomeStateData*BiomeStateData
+---@type game-Scripts-BiomeStateData*BiomeStateData
 game.BiomeStateData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-BiomeStateData.BiomeStateData ...
+---@alias game-Scripts-BiomeStateData.BiomeStateData ...
 
 return game

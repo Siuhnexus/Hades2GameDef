@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-RunHistoryData
+---@meta game-Scripts-RunHistoryData
 local game = {}
 
 return game

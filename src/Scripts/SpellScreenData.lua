@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-SpellScreenData
+---@meta game-Scripts-SpellScreenData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-SpellScreenData*TalentTreeUIData
+---@class game-Scripts-SpellScreenData*TalentTreeUIData
 
----@type SGG_Modding-Hades2GameDef-Scripts-SpellScreenData*TalentTreeUIData
+---@type game-Scripts-SpellScreenData*TalentTreeUIData
 game.TalentTreeUIData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-SpellScreenData.TalentTreeUIData ...
+---@alias game-Scripts-SpellScreenData.TalentTreeUIData ...
 
 return game

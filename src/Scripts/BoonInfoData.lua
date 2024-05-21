@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-BoonInfoData
+---@meta game-Scripts-BoonInfoData
 local game = {}
 
 return game

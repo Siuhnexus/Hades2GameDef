@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WeaponData_Zombie
+---@meta game-Scripts-WeaponData_Zombie
 local game = {}
 
 return game

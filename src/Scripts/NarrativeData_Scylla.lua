@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-NarrativeData_Scylla
+---@meta game-Scripts-NarrativeData_Scylla
 local game = {}
 
 return game

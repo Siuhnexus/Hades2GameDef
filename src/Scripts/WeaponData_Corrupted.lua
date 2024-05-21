@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WeaponData_Corrupted
+---@meta game-Scripts-WeaponData_Corrupted
 local game = {}
 
 return game

@@ -1,28 +1,28 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-SpellData
+---@meta game-Scripts-SpellData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-SpellData*SpellChargeData
+---@class game-Scripts-SpellData*SpellChargeData
 
----@type SGG_Modding-Hades2GameDef-Scripts-SpellData*SpellChargeData
+---@type game-Scripts-SpellData*SpellChargeData
 game.SpellChargeData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-SpellData.SpellChargeData ...
+---@alias game-Scripts-SpellData.SpellChargeData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-SpellData*SpellData
+---@class game-Scripts-SpellData*SpellData
 
----@type SGG_Modding-Hades2GameDef-Scripts-SpellData*SpellData
+---@type game-Scripts-SpellData*SpellData
 game.SpellData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-SpellData.SpellData ...
+---@alias game-Scripts-SpellData.SpellData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-SpellData*SpellDisplayData
+---@class game-Scripts-SpellData*SpellDisplayData
 
----@type SGG_Modding-Hades2GameDef-Scripts-SpellData*SpellDisplayData
+---@type game-Scripts-SpellData*SpellDisplayData
 game.SpellDisplayData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-SpellData.SpellDisplayData ...
+---@alias game-Scripts-SpellData.SpellDisplayData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-SpellData*SpellTalentData
+---@class game-Scripts-SpellData*SpellTalentData
 
----@type SGG_Modding-Hades2GameDef-Scripts-SpellData*SpellTalentData
+---@type game-Scripts-SpellData*SpellTalentData
 game.SpellTalentData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-SpellData.SpellTalentData ...
+---@alias game-Scripts-SpellData.SpellTalentData ...
 
 return game

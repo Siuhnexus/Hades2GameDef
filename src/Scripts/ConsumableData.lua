@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ConsumableData
+---@meta game-Scripts-ConsumableData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-ConsumableData*ConsumableData
+---@class game-Scripts-ConsumableData*ConsumableData
 
----@type SGG_Modding-Hades2GameDef-Scripts-ConsumableData*ConsumableData
+---@type game-Scripts-ConsumableData*ConsumableData
 game.ConsumableData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-ConsumableData.ConsumableData ...
+---@alias game-Scripts-ConsumableData.ConsumableData ...
 
 return game

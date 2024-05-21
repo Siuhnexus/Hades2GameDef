@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-GamePhaseData
+---@meta game-Scripts-GamePhaseData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-GamePhaseData*GamePhaseData
+---@class game-Scripts-GamePhaseData*GamePhaseData
 
----@type SGG_Modding-Hades2GameDef-Scripts-GamePhaseData*GamePhaseData
+---@type game-Scripts-GamePhaseData*GamePhaseData
 game.GamePhaseData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-GamePhaseData.GamePhaseData ...
+---@alias game-Scripts-GamePhaseData.GamePhaseData ...
 
 return game

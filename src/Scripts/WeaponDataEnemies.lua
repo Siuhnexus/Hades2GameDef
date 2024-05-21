@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WeaponDataEnemies
+---@meta game-Scripts-WeaponDataEnemies
 local game = {}
 
 return game

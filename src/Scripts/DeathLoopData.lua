@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-DeathLoopData
+---@meta game-Scripts-DeathLoopData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-DeathLoopData*HubRoomData
+---@class game-Scripts-DeathLoopData*HubRoomData
 
----@type SGG_Modding-Hades2GameDef-Scripts-DeathLoopData*HubRoomData
+---@type game-Scripts-DeathLoopData*HubRoomData
 game.HubRoomData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-DeathLoopData.HubRoomData ...
+---@alias game-Scripts-DeathLoopData.HubRoomData ...
 
 return game

@@ -40,7 +40,7 @@ local function get_args(f)
 	return table.concat(args,', ')
 end
 
-local plugin = 'SGG_Modding-Hades2GameDef-'
+local plugin = 'game-'
 
 local base = {}
 local engine = {}
@@ -107,12 +107,12 @@ local function populate_file(file,meta,defs)
 end
 
 local file = io.open(folder .. '/base.lua','w')
-local meta = plugin .. 'Base'
+local meta = plugin .. 'base'
 populate_file(file,meta,base)
 file:close()
 
 local file = io.open(folder .. '/engine.lua','w')
-local meta = plugin .. 'Engine'
+local meta = plugin .. 'engine'
 populate_file(file,meta,engine)
 file:close()
 
@@ -128,7 +128,7 @@ local first = true
 			early[k] = v
 		end
 		first = false
-		local meta = prefix .. 'Load'
+		local meta = prefix .. 'load'
 		local file = io.open(folder .. '/load.lua','w')
 		populate_file(file,meta,defs)
 		file:close()

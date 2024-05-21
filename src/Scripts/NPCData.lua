@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-NPCData
+---@meta game-Scripts-NPCData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-NPCData*NPCVariantData
+---@class game-Scripts-NPCData*NPCVariantData
 
----@type SGG_Modding-Hades2GameDef-Scripts-NPCData*NPCVariantData
+---@type game-Scripts-NPCData*NPCVariantData
 game.NPCVariantData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-NPCData.NPCVariantData ...
+---@alias game-Scripts-NPCData.NPCVariantData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-NPCData*PresetEventArgs
+---@class game-Scripts-NPCData*PresetEventArgs
 
----@type SGG_Modding-Hades2GameDef-Scripts-NPCData*PresetEventArgs
+---@type game-Scripts-NPCData*PresetEventArgs
 game.PresetEventArgs = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-NPCData.PresetEventArgs ...
+---@alias game-Scripts-NPCData.PresetEventArgs ...
 
 return game

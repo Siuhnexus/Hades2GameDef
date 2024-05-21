@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-EncounterSets
+---@meta game-Scripts-EncounterSets
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-EncounterSets*EncounterSets
+---@class game-Scripts-EncounterSets*EncounterSets
 
----@type SGG_Modding-Hades2GameDef-Scripts-EncounterSets*EncounterSets
+---@type game-Scripts-EncounterSets*EncounterSets
 game.EncounterSets = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EncounterSets.EncounterSets ...
+---@alias game-Scripts-EncounterSets.EncounterSets ...
 
 return game

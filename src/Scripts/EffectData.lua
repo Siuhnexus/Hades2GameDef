@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-EffectData
+---@meta game-Scripts-EffectData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-EffectData*EffectData
+---@class game-Scripts-EffectData*EffectData
 
----@type SGG_Modding-Hades2GameDef-Scripts-EffectData*EffectData
+---@type game-Scripts-EffectData*EffectData
 game.EffectData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EffectData.EffectData ...
+---@alias game-Scripts-EffectData.EffectData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-EffectData*WeaponEffectData
+---@class game-Scripts-EffectData*WeaponEffectData
 
----@type SGG_Modding-Hades2GameDef-Scripts-EffectData*WeaponEffectData
+---@type game-Scripts-EffectData*WeaponEffectData
 game.WeaponEffectData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EffectData.WeaponEffectData ...
+---@alias game-Scripts-EffectData.WeaponEffectData ...
 
 return game

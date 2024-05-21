@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ObstacleData
+---@meta game-Scripts-ObstacleData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-ObstacleData*MaterialDefaults
+---@class game-Scripts-ObstacleData*MaterialDefaults
 
----@type SGG_Modding-Hades2GameDef-Scripts-ObstacleData*MaterialDefaults
+---@type game-Scripts-ObstacleData*MaterialDefaults
 game.MaterialDefaults = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-ObstacleData.MaterialDefaults ...
+---@alias game-Scripts-ObstacleData.MaterialDefaults ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-ObstacleData*ObstacleData
+---@class game-Scripts-ObstacleData*ObstacleData
 
----@type SGG_Modding-Hades2GameDef-Scripts-ObstacleData*ObstacleData
+---@type game-Scripts-ObstacleData*ObstacleData
 game.ObstacleData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-ObstacleData.ObstacleData ...
+---@alias game-Scripts-ObstacleData.ObstacleData ...
 
 return game

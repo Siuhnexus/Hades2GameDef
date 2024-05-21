@@ -1,55 +1,55 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-AudioData
+---@meta game-Scripts-AudioData
 local game = {}
 
 game.GossipSubtitlesMinDistance = 1200
----@alias SGG_Modding-Hades2GameDef-Scripts-AudioData.GossipSubtitlesMinDistance ...
+---@alias game-Scripts-AudioData.GossipSubtitlesMinDistance ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-AudioData*CombatOverMusicEvents
+---@class game-Scripts-AudioData*CombatOverMusicEvents
 
----@type SGG_Modding-Hades2GameDef-Scripts-AudioData*CombatOverMusicEvents
+---@type game-Scripts-AudioData*CombatOverMusicEvents
 game.CombatOverMusicEvents = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-AudioData.CombatOverMusicEvents ...
+---@alias game-Scripts-AudioData.CombatOverMusicEvents ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-AudioData*GlobalVoiceLines
+---@class game-Scripts-AudioData*GlobalVoiceLines
 
----@type SGG_Modding-Hades2GameDef-Scripts-AudioData*GlobalVoiceLines
+---@type game-Scripts-AudioData*GlobalVoiceLines
 game.GlobalVoiceLines = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-AudioData.GlobalVoiceLines ...
+---@alias game-Scripts-AudioData.GlobalVoiceLines ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-AudioData*MusicMarkerData
+---@class game-Scripts-AudioData*MusicMarkerData
 
----@type SGG_Modding-Hades2GameDef-Scripts-AudioData*MusicMarkerData
+---@type game-Scripts-AudioData*MusicMarkerData
 game.MusicMarkerData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-AudioData.MusicMarkerData ...
+---@alias game-Scripts-AudioData.MusicMarkerData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-AudioData*MusicPlayerTrackData
+---@class game-Scripts-AudioData*MusicPlayerTrackData
 
----@type SGG_Modding-Hades2GameDef-Scripts-AudioData*MusicPlayerTrackData
+---@type game-Scripts-AudioData*MusicPlayerTrackData
 game.MusicPlayerTrackData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-AudioData.MusicPlayerTrackData ...
+---@alias game-Scripts-AudioData.MusicPlayerTrackData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-AudioData*MusicPlayerTrackOrderData
+---@class game-Scripts-AudioData*MusicPlayerTrackOrderData
 
----@type SGG_Modding-Hades2GameDef-Scripts-AudioData*MusicPlayerTrackOrderData
+---@type game-Scripts-AudioData*MusicPlayerTrackOrderData
 game.MusicPlayerTrackOrderData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-AudioData.MusicPlayerTrackOrderData ...
+---@alias game-Scripts-AudioData.MusicPlayerTrackOrderData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-AudioData*MusicTrackData
+---@class game-Scripts-AudioData*MusicTrackData
 
----@type SGG_Modding-Hades2GameDef-Scripts-AudioData*MusicTrackData
+---@type game-Scripts-AudioData*MusicTrackData
 game.MusicTrackData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-AudioData.MusicTrackData ...
+---@alias game-Scripts-AudioData.MusicTrackData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-AudioData*PresetAudioArgs
+---@class game-Scripts-AudioData*PresetAudioArgs
 
----@type SGG_Modding-Hades2GameDef-Scripts-AudioData*PresetAudioArgs
+---@type game-Scripts-AudioData*PresetAudioArgs
 game.PresetAudioArgs = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-AudioData.PresetAudioArgs ...
+---@alias game-Scripts-AudioData.PresetAudioArgs ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-AudioData*RoomStartMusicEvents
+---@class game-Scripts-AudioData*RoomStartMusicEvents
 
----@type SGG_Modding-Hades2GameDef-Scripts-AudioData*RoomStartMusicEvents
+---@type game-Scripts-AudioData*RoomStartMusicEvents
 game.RoomStartMusicEvents = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-AudioData.RoomStartMusicEvents ...
+---@alias game-Scripts-AudioData.RoomStartMusicEvents ...
 
 return game

@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-AudioData_Shrine
+---@meta game-Scripts-AudioData_Shrine
 local game = {}
 
 return game

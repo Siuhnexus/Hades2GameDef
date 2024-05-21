@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ResourceData
+---@meta game-Scripts-ResourceData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-ResourceData*ResourceData
+---@class game-Scripts-ResourceData*ResourceData
 
----@type SGG_Modding-Hades2GameDef-Scripts-ResourceData*ResourceData
+---@type game-Scripts-ResourceData*ResourceData
 game.ResourceData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-ResourceData.ResourceData ...
+---@alias game-Scripts-ResourceData.ResourceData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-ResourceData*ResourceDisplayOrderData
+---@class game-Scripts-ResourceData*ResourceDisplayOrderData
 
----@type SGG_Modding-Hades2GameDef-Scripts-ResourceData*ResourceDisplayOrderData
+---@type game-Scripts-ResourceData*ResourceDisplayOrderData
 game.ResourceDisplayOrderData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-ResourceData.ResourceDisplayOrderData ...
+---@alias game-Scripts-ResourceData.ResourceDisplayOrderData ...
 
 return game

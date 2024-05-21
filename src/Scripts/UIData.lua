@@ -1,88 +1,88 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-UIData
+---@meta game-Scripts-UIData
 local game = {}
 
 game.ScreenCenterX = 960
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.ScreenCenterX ...
+---@alias game-Scripts-UIData.ScreenCenterX ...
 
 game.ScreenCenterY = 540
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.ScreenCenterY ...
+---@alias game-Scripts-UIData.ScreenCenterY ...
 
 game.ScreenHeight = 1080
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.ScreenHeight ...
+---@alias game-Scripts-UIData.ScreenHeight ...
 
 game.ScreenWidth = 1920
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.ScreenWidth ...
+---@alias game-Scripts-UIData.ScreenWidth ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*AutomaticExtractProperties
+---@class game-Scripts-UIData*AutomaticExtractProperties
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*AutomaticExtractProperties
+---@type game-Scripts-UIData*AutomaticExtractProperties
 game.AutomaticExtractProperties = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.AutomaticExtractProperties ...
+---@alias game-Scripts-UIData.AutomaticExtractProperties ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*CombatControlsDefaults
+---@class game-Scripts-UIData*CombatControlsDefaults
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*CombatControlsDefaults
+---@type game-Scripts-UIData*CombatControlsDefaults
 game.CombatControlsDefaults = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.CombatControlsDefaults ...
+---@alias game-Scripts-UIData.CombatControlsDefaults ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*CombatUI
+---@class game-Scripts-UIData*CombatUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*CombatUI
+---@type game-Scripts-UIData*CombatUI
 game.CombatUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.CombatUI ...
+---@alias game-Scripts-UIData.CombatUI ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*ConstantsData
+---@class game-Scripts-UIData*ConstantsData
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*ConstantsData
+---@type game-Scripts-UIData*ConstantsData
 game.ConstantsData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.ConstantsData ...
+---@alias game-Scripts-UIData.ConstantsData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*GamepadNavigationDefaults
+---@class game-Scripts-UIData*GamepadNavigationDefaults
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*GamepadNavigationDefaults
+---@type game-Scripts-UIData*GamepadNavigationDefaults
 game.GamepadNavigationDefaults = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.GamepadNavigationDefaults ...
+---@alias game-Scripts-UIData.GamepadNavigationDefaults ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*HealthUI
+---@class game-Scripts-UIData*HealthUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*HealthUI
+---@type game-Scripts-UIData*HealthUI
 game.HealthUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.HealthUI ...
+---@alias game-Scripts-UIData.HealthUI ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*IconData
+---@class game-Scripts-UIData*IconData
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*IconData
+---@type game-Scripts-UIData*IconData
 game.IconData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.IconData ...
+---@alias game-Scripts-UIData.IconData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*PercentFormatNamesLookup
+---@class game-Scripts-UIData*PercentFormatNamesLookup
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*PercentFormatNamesLookup
+---@type game-Scripts-UIData*PercentFormatNamesLookup
 game.PercentFormatNamesLookup = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.PercentFormatNamesLookup ...
+---@alias game-Scripts-UIData.PercentFormatNamesLookup ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*RunIntroData
+---@class game-Scripts-UIData*RunIntroData
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*RunIntroData
+---@type game-Scripts-UIData*RunIntroData
 game.RunIntroData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.RunIntroData ...
+---@alias game-Scripts-UIData.RunIntroData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*ShopUI
+---@class game-Scripts-UIData*ShopUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*ShopUI
+---@type game-Scripts-UIData*ShopUI
 game.ShopUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.ShopUI ...
+---@alias game-Scripts-UIData.ShopUI ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*TextFormats
+---@class game-Scripts-UIData*TextFormats
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*TextFormats
+---@type game-Scripts-UIData*TextFormats
 game.TextFormats = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.TextFormats ...
+---@alias game-Scripts-UIData.TextFormats ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-UIData*UIData
+---@class game-Scripts-UIData*UIData
 
----@type SGG_Modding-Hades2GameDef-Scripts-UIData*UIData
+---@type game-Scripts-UIData*UIData
 game.UIData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-UIData.UIData ...
+---@alias game-Scripts-UIData.UIData ...
 
 return game

@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-LootData
+---@meta game-Scripts-LootData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-LootData*RewardStoreData
+---@class game-Scripts-LootData*RewardStoreData
 
----@type SGG_Modding-Hades2GameDef-Scripts-LootData*RewardStoreData
+---@type game-Scripts-LootData*RewardStoreData
 game.RewardStoreData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-LootData.RewardStoreData ...
+---@alias game-Scripts-LootData.RewardStoreData ...
 
 return game

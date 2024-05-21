@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-MarketData
+---@meta game-Scripts-MarketData
 local game = {}
 
 return game

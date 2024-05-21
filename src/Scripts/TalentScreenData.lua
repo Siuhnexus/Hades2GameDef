@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-TalentScreenData
+---@meta game-Scripts-TalentScreenData
 local game = {}
 
 return game

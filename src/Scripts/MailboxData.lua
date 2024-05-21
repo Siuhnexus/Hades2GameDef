@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-MailboxData
+---@meta game-Scripts-MailboxData
 local game = {}
 
 return game

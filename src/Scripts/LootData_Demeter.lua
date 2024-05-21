@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-LootData_Demeter
+---@meta game-Scripts-LootData_Demeter
 local game = {}
 
 return game

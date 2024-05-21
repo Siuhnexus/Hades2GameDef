@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-MetaUpgradeCardPromptScreenData
+---@meta game-Scripts-MetaUpgradeCardPromptScreenData
 local game = {}
 
 return game

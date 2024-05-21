@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ObstacleDataH
+---@meta game-Scripts-ObstacleDataH
 local game = {}
 
 return game

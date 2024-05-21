@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-NarrativeData_Bouldy
+---@meta game-Scripts-NarrativeData_Bouldy
 local game = {}
 
 return game

@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-KeepsakeData
+---@meta game-Scripts-KeepsakeData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-KeepsakeData*GiftData
+---@class game-Scripts-KeepsakeData*GiftData
 
----@type SGG_Modding-Hades2GameDef-Scripts-KeepsakeData*GiftData
+---@type game-Scripts-KeepsakeData*GiftData
 game.GiftData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-KeepsakeData.GiftData ...
+---@alias game-Scripts-KeepsakeData.GiftData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-KeepsakeData*GiftIconData
+---@class game-Scripts-KeepsakeData*GiftIconData
 
----@type SGG_Modding-Hades2GameDef-Scripts-KeepsakeData*GiftIconData
+---@type game-Scripts-KeepsakeData*GiftIconData
 game.GiftIconData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-KeepsakeData.GiftIconData ...
+---@alias game-Scripts-KeepsakeData.GiftIconData ...
 
 return game

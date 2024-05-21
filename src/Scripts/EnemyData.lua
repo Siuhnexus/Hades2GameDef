@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-EnemyData
+---@meta game-Scripts-EnemyData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-EnemyData*CollisionReactionData
+---@class game-Scripts-EnemyData*CollisionReactionData
 
----@type SGG_Modding-Hades2GameDef-Scripts-EnemyData*CollisionReactionData
+---@type game-Scripts-EnemyData*CollisionReactionData
 game.CollisionReactionData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EnemyData.CollisionReactionData ...
+---@alias game-Scripts-EnemyData.CollisionReactionData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-EnemyData*StatusAnimations
+---@class game-Scripts-EnemyData*StatusAnimations
 
----@type SGG_Modding-Hades2GameDef-Scripts-EnemyData*StatusAnimations
+---@type game-Scripts-EnemyData*StatusAnimations
 game.StatusAnimations = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EnemyData.StatusAnimations ...
+---@alias game-Scripts-EnemyData.StatusAnimations ...
 
 return game

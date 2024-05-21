@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-GameStatsData
+---@meta game-Scripts-GameStatsData
 local game = {}
 
 return game

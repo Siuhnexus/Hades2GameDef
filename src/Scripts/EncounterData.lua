@@ -1,34 +1,34 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-EncounterData
+---@meta game-Scripts-EncounterData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-EncounterData*BaseWaveOverrideValues
+---@class game-Scripts-EncounterData*BaseWaveOverrideValues
 
----@type SGG_Modding-Hades2GameDef-Scripts-EncounterData*BaseWaveOverrideValues
+---@type game-Scripts-EncounterData*BaseWaveOverrideValues
 game.BaseWaveOverrideValues = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EncounterData.BaseWaveOverrideValues ...
+---@alias game-Scripts-EncounterData.BaseWaveOverrideValues ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-EncounterData*EncounterData
+---@class game-Scripts-EncounterData*EncounterData
 
----@type SGG_Modding-Hades2GameDef-Scripts-EncounterData*EncounterData
+---@type game-Scripts-EncounterData*EncounterData
 game.EncounterData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EncounterData.EncounterData ...
+---@alias game-Scripts-EncounterData.EncounterData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-EncounterData*IntroWaveOverrideValues
+---@class game-Scripts-EncounterData*IntroWaveOverrideValues
 
----@type SGG_Modding-Hades2GameDef-Scripts-EncounterData*IntroWaveOverrideValues
+---@type game-Scripts-EncounterData*IntroWaveOverrideValues
 game.IntroWaveOverrideValues = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EncounterData.IntroWaveOverrideValues ...
+---@alias game-Scripts-EncounterData.IntroWaveOverrideValues ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-EncounterData*TimerBlockCombatExcludes
+---@class game-Scripts-EncounterData*TimerBlockCombatExcludes
 
----@type SGG_Modding-Hades2GameDef-Scripts-EncounterData*TimerBlockCombatExcludes
+---@type game-Scripts-EncounterData*TimerBlockCombatExcludes
 game.TimerBlockCombatExcludes = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EncounterData.TimerBlockCombatExcludes ...
+---@alias game-Scripts-EncounterData.TimerBlockCombatExcludes ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-EncounterData*WaveDifficultyPatterns
+---@class game-Scripts-EncounterData*WaveDifficultyPatterns
 
----@type SGG_Modding-Hades2GameDef-Scripts-EncounterData*WaveDifficultyPatterns
+---@type game-Scripts-EncounterData*WaveDifficultyPatterns
 game.WaveDifficultyPatterns = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EncounterData.WaveDifficultyPatterns ...
+---@alias game-Scripts-EncounterData.WaveDifficultyPatterns ...
 
 return game

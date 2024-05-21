@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WeaponUpgradeData
+---@meta game-Scripts-WeaponUpgradeData
 local game = {}
 
 return game

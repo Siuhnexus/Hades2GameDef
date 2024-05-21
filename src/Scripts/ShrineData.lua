@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ShrineData
+---@meta game-Scripts-ShrineData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-ShrineData*BiomeTimeLimits
+---@class game-Scripts-ShrineData*BiomeTimeLimits
 
----@type SGG_Modding-Hades2GameDef-Scripts-ShrineData*BiomeTimeLimits
+---@type game-Scripts-ShrineData*BiomeTimeLimits
 game.BiomeTimeLimits = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-ShrineData.BiomeTimeLimits ...
+---@alias game-Scripts-ShrineData.BiomeTimeLimits ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-ShrineData*ShrineUpgradeOrder
+---@class game-Scripts-ShrineData*ShrineUpgradeOrder
 
----@type SGG_Modding-Hades2GameDef-Scripts-ShrineData*ShrineUpgradeOrder
+---@type game-Scripts-ShrineData*ShrineUpgradeOrder
 game.ShrineUpgradeOrder = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-ShrineData.ShrineUpgradeOrder ...
+---@alias game-Scripts-ShrineData.ShrineUpgradeOrder ...
 
 return game

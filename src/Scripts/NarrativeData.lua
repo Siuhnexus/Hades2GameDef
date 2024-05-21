@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-NarrativeData
+---@meta game-Scripts-NarrativeData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-NarrativeData*NarrativeData
+---@class game-Scripts-NarrativeData*NarrativeData
 
----@type SGG_Modding-Hades2GameDef-Scripts-NarrativeData*NarrativeData
+---@type game-Scripts-NarrativeData*NarrativeData
 game.NarrativeData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-NarrativeData.NarrativeData ...
+---@alias game-Scripts-NarrativeData.NarrativeData ...
 
 return game

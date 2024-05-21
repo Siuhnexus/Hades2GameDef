@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WeaponSets
+---@meta game-Scripts-WeaponSets
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-WeaponSets*UnitSets
+---@class game-Scripts-WeaponSets*UnitSets
 
----@type SGG_Modding-Hades2GameDef-Scripts-WeaponSets*UnitSets
+---@type game-Scripts-WeaponSets*UnitSets
 game.UnitSets = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-WeaponSets.UnitSets ...
+---@alias game-Scripts-WeaponSets.UnitSets ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-WeaponSets*WeaponSets
+---@class game-Scripts-WeaponSets*WeaponSets
 
----@type SGG_Modding-Hades2GameDef-Scripts-WeaponSets*WeaponSets
+---@type game-Scripts-WeaponSets*WeaponSets
 game.WeaponSets = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-WeaponSets.WeaponSets ...
+---@alias game-Scripts-WeaponSets.WeaponSets ...
 
 return game

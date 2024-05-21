@@ -1,52 +1,52 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-HUDData
+---@meta game-Scripts-HUDData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-HUDData*AmmoUI
+---@class game-Scripts-HUDData*AmmoUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-HUDData*AmmoUI
+---@type game-Scripts-HUDData*AmmoUI
 game.AmmoUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HUDData.AmmoUI ...
+---@alias game-Scripts-HUDData.AmmoUI ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HUDData*AxeUI
+---@class game-Scripts-HUDData*AxeUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-HUDData*AxeUI
+---@type game-Scripts-HUDData*AxeUI
 game.AxeUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HUDData.AxeUI ...
+---@alias game-Scripts-HUDData.AxeUI ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HUDData*ConsumableUI
+---@class game-Scripts-HUDData*ConsumableUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-HUDData*ConsumableUI
+---@type game-Scripts-HUDData*ConsumableUI
 game.ConsumableUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HUDData.ConsumableUI ...
+---@alias game-Scripts-HUDData.ConsumableUI ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HUDData*DaggerUI
+---@class game-Scripts-HUDData*DaggerUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-HUDData*DaggerUI
+---@type game-Scripts-HUDData*DaggerUI
 game.DaggerUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HUDData.DaggerUI ...
+---@alias game-Scripts-HUDData.DaggerUI ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HUDData*MoneyUI
+---@class game-Scripts-HUDData*MoneyUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-HUDData*MoneyUI
+---@type game-Scripts-HUDData*MoneyUI
 game.MoneyUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HUDData.MoneyUI ...
+---@alias game-Scripts-HUDData.MoneyUI ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HUDData*StaffUI
+---@class game-Scripts-HUDData*StaffUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-HUDData*StaffUI
+---@type game-Scripts-HUDData*StaffUI
 game.StaffUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HUDData.StaffUI ...
+---@alias game-Scripts-HUDData.StaffUI ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HUDData*TorchUI
+---@class game-Scripts-HUDData*TorchUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-HUDData*TorchUI
+---@type game-Scripts-HUDData*TorchUI
 game.TorchUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HUDData.TorchUI ...
+---@alias game-Scripts-HUDData.TorchUI ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HUDData*TraitUI
+---@class game-Scripts-HUDData*TraitUI
 
----@type SGG_Modding-Hades2GameDef-Scripts-HUDData*TraitUI
+---@type game-Scripts-HUDData*TraitUI
 game.TraitUI = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HUDData.TraitUI ...
+---@alias game-Scripts-HUDData.TraitUI ...
 
 return game

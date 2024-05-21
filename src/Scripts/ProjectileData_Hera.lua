@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ProjectileData_Hera
+---@meta game-Scripts-ProjectileData_Hera
 local game = {}
 
 return game

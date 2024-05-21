@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-BountyData
+---@meta game-Scripts-BountyData
 local game = {}
 
 return game

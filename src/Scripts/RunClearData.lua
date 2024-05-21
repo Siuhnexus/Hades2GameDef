@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-RunClearData
+---@meta game-Scripts-RunClearData
 local game = {}
 
 return game
