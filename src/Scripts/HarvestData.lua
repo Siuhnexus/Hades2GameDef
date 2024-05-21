@@ -1,40 +1,40 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-HarvestData
+---@meta game-Scripts-HarvestData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-HarvestData*ExorcismData
+---@class game-Scripts-HarvestData*ExorcismData
 
----@type SGG_Modding-Hades2GameDef-Scripts-HarvestData*ExorcismData
+---@type game-Scripts-HarvestData*ExorcismData
 game.ExorcismData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HarvestData.ExorcismData ...
+---@alias game-Scripts-HarvestData.ExorcismData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HarvestData*HarvestData
+---@class game-Scripts-HarvestData*HarvestData
 
----@type SGG_Modding-Hades2GameDef-Scripts-HarvestData*HarvestData
+---@type game-Scripts-HarvestData*HarvestData
 game.HarvestData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HarvestData.HarvestData ...
+---@alias game-Scripts-HarvestData.HarvestData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HarvestData*PickaxePointData
+---@class game-Scripts-HarvestData*PickaxePointData
 
----@type SGG_Modding-Hades2GameDef-Scripts-HarvestData*PickaxePointData
+---@type game-Scripts-HarvestData*PickaxePointData
 game.PickaxePointData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HarvestData.PickaxePointData ...
+---@alias game-Scripts-HarvestData.PickaxePointData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HarvestData*ShovelPointData
+---@class game-Scripts-HarvestData*ShovelPointData
 
----@type SGG_Modding-Hades2GameDef-Scripts-HarvestData*ShovelPointData
+---@type game-Scripts-HarvestData*ShovelPointData
 game.ShovelPointData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HarvestData.ShovelPointData ...
+---@alias game-Scripts-HarvestData.ShovelPointData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HarvestData*ToolData
+---@class game-Scripts-HarvestData*ToolData
 
----@type SGG_Modding-Hades2GameDef-Scripts-HarvestData*ToolData
+---@type game-Scripts-HarvestData*ToolData
 game.ToolData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HarvestData.ToolData ...
+---@alias game-Scripts-HarvestData.ToolData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-HarvestData*ToolOrderData
+---@class game-Scripts-HarvestData*ToolOrderData
 
----@type SGG_Modding-Hades2GameDef-Scripts-HarvestData*ToolOrderData
+---@type game-Scripts-HarvestData*ToolOrderData
 game.ToolOrderData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-HarvestData.ToolOrderData ...
+---@alias game-Scripts-HarvestData.ToolOrderData ...
 
 return game

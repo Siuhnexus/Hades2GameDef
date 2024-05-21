@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-TraitData_Arachne
+---@meta game-Scripts-TraitData_Arachne
 local game = {}
 
 return game

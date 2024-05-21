@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-GhostAdminData
+---@meta game-Scripts-GhostAdminData
 local game = {}
 
 return game

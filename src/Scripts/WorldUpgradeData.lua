@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WorldUpgradeData
+---@meta game-Scripts-WorldUpgradeData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-WorldUpgradeData*WorldUpgradeData
+---@class game-Scripts-WorldUpgradeData*WorldUpgradeData
 
----@type SGG_Modding-Hades2GameDef-Scripts-WorldUpgradeData*WorldUpgradeData
+---@type game-Scripts-WorldUpgradeData*WorldUpgradeData
 game.WorldUpgradeData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-WorldUpgradeData.WorldUpgradeData ...
+---@alias game-Scripts-WorldUpgradeData.WorldUpgradeData ...
 
 return game

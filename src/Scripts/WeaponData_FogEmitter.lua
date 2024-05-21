@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WeaponData_FogEmitter
+---@meta game-Scripts-WeaponData_FogEmitter
 local game = {}
 
 return game

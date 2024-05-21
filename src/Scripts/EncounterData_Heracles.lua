@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-EncounterData_Heracles
+---@meta game-Scripts-EncounterData_Heracles
 local game = {}
 
 return game

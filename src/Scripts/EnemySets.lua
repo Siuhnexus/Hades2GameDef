@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-EnemySets
+---@meta game-Scripts-EnemySets
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-EnemySets*EnemySets
+---@class game-Scripts-EnemySets*EnemySets
 
----@type SGG_Modding-Hades2GameDef-Scripts-EnemySets*EnemySets
+---@type game-Scripts-EnemySets*EnemySets
 game.EnemySets = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-EnemySets.EnemySets ...
+---@alias game-Scripts-EnemySets.EnemySets ...
 
 return game

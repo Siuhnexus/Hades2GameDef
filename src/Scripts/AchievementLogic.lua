@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-AchievementLogic
+---@meta game-Scripts-AchievementLogic
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-AchievementLogic*SessionAchivementUnlocks
+---@class game-Scripts-AchievementLogic*SessionAchivementUnlocks
 
----@type SGG_Modding-Hades2GameDef-Scripts-AchievementLogic*SessionAchivementUnlocks
+---@type game-Scripts-AchievementLogic*SessionAchivementUnlocks
 game.SessionAchivementUnlocks = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-AchievementLogic.SessionAchivementUnlocks ...
+---@alias game-Scripts-AchievementLogic.SessionAchivementUnlocks ...
 
 function game.CheckAchievement(a) end
----@alias SGG_Modding-Hades2GameDef-Scripts-AchievementLogic.CheckAchievement ...
+---@alias game-Scripts-AchievementLogic.CheckAchievement ...
 
 function game.CheckProgressAchievements(a) end
----@alias SGG_Modding-Hades2GameDef-Scripts-AchievementLogic.CheckProgressAchievements ...
+---@alias game-Scripts-AchievementLogic.CheckProgressAchievements ...
 
 return game

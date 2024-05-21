@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-TraitData_Spell
+---@meta game-Scripts-TraitData_Spell
 local game = {}
 
 return game

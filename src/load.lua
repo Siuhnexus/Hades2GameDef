@@ -1,143 +1,143 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-Load
+---@meta game-load
 local game = {}
 
 ---@type thread
 game._activeThread = ...
----@alias SGG_Modding-Hades2GameDef-Scripts-Load._activeThread ...
+---@alias game-load._activeThread ...
 
 game.Revision = 90592
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.Revision ...
+---@alias game-load.Revision ...
 
 game.ScreenCenterNativeOffsetX = 0
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.ScreenCenterNativeOffsetX ...
+---@alias game-load.ScreenCenterNativeOffsetX ...
 
 game.ScreenCenterNativeOffsetY = 0
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.ScreenCenterNativeOffsetY ...
+---@alias game-load.ScreenCenterNativeOffsetY ...
 
 game.ScreenScaleX = 1
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.ScreenScaleX ...
+---@alias game-load.ScreenScaleX ...
 
 game.ScreenScaleY = 1
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.ScreenScaleY ...
+---@alias game-load.ScreenScaleY ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*_threadStack
+---@class game-load*_threadStack
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*_threadStack
+---@type game-load*_threadStack
 game._threadStack = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load._threadStack ...
+---@alias game-load._threadStack ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*ActiveScreens
+---@class game-load*ActiveScreens
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*ActiveScreens
+---@type game-load*ActiveScreens
 game.ActiveScreens = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.ActiveScreens ...
+---@alias game-load.ActiveScreens ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*CodexStatus
+---@class game-load*CodexStatus
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*CodexStatus
+---@type game-load*CodexStatus
 game.CodexStatus = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.CodexStatus ...
+---@alias game-load.CodexStatus ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*ConfigOptionCache
+---@class game-load*ConfigOptionCache
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*ConfigOptionCache
+---@type game-load*ConfigOptionCache
 game.ConfigOptionCache = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.ConfigOptionCache ...
+---@alias game-load.ConfigOptionCache ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*CurrentHubRoom
+---@class game-load*CurrentHubRoom
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*CurrentHubRoom
+---@type game-load*CurrentHubRoom
 game.CurrentHubRoom = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.CurrentHubRoom ...
+---@alias game-load.CurrentHubRoom ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*CurrentRun
+---@class game-load*CurrentRun
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*CurrentRun
+---@type game-load*CurrentRun
 game.CurrentRun = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.CurrentRun ...
+---@alias game-load.CurrentRun ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*DeferredObstacleInitialization
+---@class game-load*DeferredObstacleInitialization
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*DeferredObstacleInitialization
+---@type game-load*DeferredObstacleInitialization
 game.DeferredObstacleInitialization = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.DeferredObstacleInitialization ...
+---@alias game-load.DeferredObstacleInitialization ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*EnemyHealthDisplayAnchors
+---@class game-load*EnemyHealthDisplayAnchors
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*EnemyHealthDisplayAnchors
+---@type game-load*EnemyHealthDisplayAnchors
 game.EnemyHealthDisplayAnchors = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.EnemyHealthDisplayAnchors ...
+---@alias game-load.EnemyHealthDisplayAnchors ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*GamepadCursorRequests
+---@class game-load*GamepadCursorRequests
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*GamepadCursorRequests
+---@type game-load*GamepadCursorRequests
 game.GamepadCursorRequests = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.GamepadCursorRequests ...
+---@alias game-load.GamepadCursorRequests ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*GameState
+---@class game-load*GameState
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*GameState
+---@type game-load*GameState
 game.GameState = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.GameState ...
+---@alias game-load.GameState ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*global_triggerArgs
+---@class game-load*global_triggerArgs
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*global_triggerArgs
+---@type game-load*global_triggerArgs
 game.global_triggerArgs = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.global_triggerArgs ...
+---@alias game-load.global_triggerArgs ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*MapState
+---@class game-load*MapState
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*MapState
+---@type game-load*MapState
 game.MapState = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.MapState ...
+---@alias game-load.MapState ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*NextSeeds
+---@class game-load*NextSeeds
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*NextSeeds
+---@type game-load*NextSeeds
 game.NextSeeds = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.NextSeeds ...
+---@alias game-load.NextSeeds ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*PrevRun
+---@class game-load*PrevRun
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*PrevRun
+---@type game-load*PrevRun
 game.PrevRun = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.PrevRun ...
+---@alias game-load.PrevRun ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*QueuedTextLines
+---@class game-load*QueuedTextLines
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*QueuedTextLines
+---@type game-load*QueuedTextLines
 game.QueuedTextLines = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.QueuedTextLines ...
+---@alias game-load.QueuedTextLines ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*ScreenAnchors
+---@class game-load*ScreenAnchors
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*ScreenAnchors
+---@type game-load*ScreenAnchors
 game.ScreenAnchors = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.ScreenAnchors ...
+---@alias game-load.ScreenAnchors ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*ScreenPresentationData
+---@class game-load*ScreenPresentationData
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*ScreenPresentationData
+---@type game-load*ScreenPresentationData
 game.ScreenPresentationData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.ScreenPresentationData ...
+---@alias game-load.ScreenPresentationData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*ScreenState
+---@class game-load*ScreenState
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*ScreenState
+---@type game-load*ScreenState
 game.ScreenState = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.ScreenState ...
+---@alias game-load.ScreenState ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*SessionMapState
+---@class game-load*SessionMapState
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*SessionMapState
+---@type game-load*SessionMapState
 game.SessionMapState = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.SessionMapState ...
+---@alias game-load.SessionMapState ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-Load*UIScriptsDeferred
+---@class game-load*UIScriptsDeferred
 
----@type SGG_Modding-Hades2GameDef-Scripts-Load*UIScriptsDeferred
+---@type game-load*UIScriptsDeferred
 game.UIScriptsDeferred = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-Load.UIScriptsDeferred ...
+---@alias game-load.UIScriptsDeferred ...
 
 return game

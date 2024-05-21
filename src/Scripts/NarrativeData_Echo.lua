@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-NarrativeData_Echo
+---@meta game-Scripts-NarrativeData_Echo
 local game = {}
 
 return game

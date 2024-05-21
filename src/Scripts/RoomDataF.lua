@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-RoomDataF
+---@meta game-Scripts-RoomDataF
 local game = {}
 
 return game

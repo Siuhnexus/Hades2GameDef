@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WeaponData
+---@meta game-Scripts-WeaponData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-WeaponData*WeaponData
+---@class game-Scripts-WeaponData*WeaponData
 
----@type SGG_Modding-Hades2GameDef-Scripts-WeaponData*WeaponData
+---@type game-Scripts-WeaponData*WeaponData
 game.WeaponData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-WeaponData.WeaponData ...
+---@alias game-Scripts-WeaponData.WeaponData ...
 
 return game

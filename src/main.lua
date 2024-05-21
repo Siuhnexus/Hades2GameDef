@@ -7,9 +7,10 @@
 	  The definitions are very large, so it may take some time for VSCode to load it.
 	  
 	  Usage:
-		---@module 'SGG_Modding-Hades2GameDef-Globals'
+		---@module 'game'
 		local game = rom.game
 	  *    -    -    -    -    -    -    -    -    -    -
-		---@module 'SGG_Modding-Hades2GameDef-Globals'
-		rom.game = rom.game
+		local envy = rom.mods['SGG_Modding-ENVY']
+		---@module 'game-import'
+		envy.import_as_fallback(_ENV,rom.game)
 --]]

@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-FamiliarShopData
+---@meta game-Scripts-FamiliarShopData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-FamiliarShopData*FamiliarShopItemData
+---@class game-Scripts-FamiliarShopData*FamiliarShopItemData
 
----@type SGG_Modding-Hades2GameDef-Scripts-FamiliarShopData*FamiliarShopItemData
+---@type game-Scripts-FamiliarShopData*FamiliarShopItemData
 game.FamiliarShopItemData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-FamiliarShopData.FamiliarShopItemData ...
+---@alias game-Scripts-FamiliarShopData.FamiliarShopItemData ...
 
 return game

@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-CostumeData
+---@meta game-Scripts-CostumeData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-CostumeData*CostumeData
+---@class game-Scripts-CostumeData*CostumeData
 
----@type SGG_Modding-Hades2GameDef-Scripts-CostumeData*CostumeData
+---@type game-Scripts-CostumeData*CostumeData
 game.CostumeData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-CostumeData.CostumeData ...
+---@alias game-Scripts-CostumeData.CostumeData ...
 
 return game

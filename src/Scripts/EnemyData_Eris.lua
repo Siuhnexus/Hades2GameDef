@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-EnemyData_Eris
+---@meta game-Scripts-EnemyData_Eris
 local game = {}
 
 return game

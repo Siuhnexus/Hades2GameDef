@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ElementalPromptScreenData
+---@meta game-Scripts-ElementalPromptScreenData
 local game = {}
 
 return game

@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-TraitData_Icarus
+---@meta game-Scripts-TraitData_Icarus
 local game = {}
 
 return game

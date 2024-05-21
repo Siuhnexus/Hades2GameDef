@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-GardenData
+---@meta game-Scripts-GardenData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-GardenData*GardenData
+---@class game-Scripts-GardenData*GardenData
 
----@type SGG_Modding-Hades2GameDef-Scripts-GardenData*GardenData
+---@type game-Scripts-GardenData*GardenData
 game.GardenData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-GardenData.GardenData ...
+---@alias game-Scripts-GardenData.GardenData ...
 
 return game

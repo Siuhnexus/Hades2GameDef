@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ColorData
+---@meta game-Scripts-ColorData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-ColorData*Color
+---@class game-Scripts-ColorData*Color
 
----@type SGG_Modding-Hades2GameDef-Scripts-ColorData*Color
+---@type game-Scripts-ColorData*Color
 game.Color = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-ColorData.Color ...
+---@alias game-Scripts-ColorData.Color ...
 
 return game

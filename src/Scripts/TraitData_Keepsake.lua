@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-TraitData_Keepsake
+---@meta game-Scripts-TraitData_Keepsake
 local game = {}
 
 return game

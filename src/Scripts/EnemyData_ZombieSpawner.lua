@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-EnemyData_ZombieSpawner
+---@meta game-Scripts-EnemyData_ZombieSpawner
 local game = {}
 
 return game

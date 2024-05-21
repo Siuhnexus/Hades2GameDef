@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ResourceData_Cosmetics
+---@meta game-Scripts-ResourceData_Cosmetics
 local game = {}
 
 return game

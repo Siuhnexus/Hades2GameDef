@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-RequirementsData
+---@meta game-Scripts-RequirementsData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-RequirementsData*DebugData
+---@class game-Scripts-RequirementsData*DebugData
 
----@type SGG_Modding-Hades2GameDef-Scripts-RequirementsData*DebugData
+---@type game-Scripts-RequirementsData*DebugData
 game.DebugData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-RequirementsData.DebugData ...
+---@alias game-Scripts-RequirementsData.DebugData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-RequirementsData*NamedRequirementsData
+---@class game-Scripts-RequirementsData*NamedRequirementsData
 
----@type SGG_Modding-Hades2GameDef-Scripts-RequirementsData*NamedRequirementsData
+---@type game-Scripts-RequirementsData*NamedRequirementsData
 game.NamedRequirementsData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-RequirementsData.NamedRequirementsData ...
+---@alias game-Scripts-RequirementsData.NamedRequirementsData ...
 
 return game

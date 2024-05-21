@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-NPCData_Echo
+---@meta game-Scripts-NPCData_Echo
 local game = {}
 
 return game

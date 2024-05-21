@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-EnemyData_Crawler
+---@meta game-Scripts-EnemyData_Crawler
 local game = {}
 
 return game

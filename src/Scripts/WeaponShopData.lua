@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WeaponShopData
+---@meta game-Scripts-WeaponShopData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-WeaponShopData*WeaponShopItemData
+---@class game-Scripts-WeaponShopData*WeaponShopItemData
 
----@type SGG_Modding-Hades2GameDef-Scripts-WeaponShopData*WeaponShopItemData
+---@type game-Scripts-WeaponShopData*WeaponShopItemData
 game.WeaponShopItemData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-WeaponShopData.WeaponShopItemData ...
+---@alias game-Scripts-WeaponShopData.WeaponShopItemData ...
 
 return game

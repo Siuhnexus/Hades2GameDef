@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-RewardData
+---@meta game-Scripts-RewardData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-RewardData*RewardData
+---@class game-Scripts-RewardData*RewardData
 
----@type SGG_Modding-Hades2GameDef-Scripts-RewardData*RewardData
+---@type game-Scripts-RewardData*RewardData
 game.RewardData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-RewardData.RewardData ...
+---@alias game-Scripts-RewardData.RewardData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-RewardData*RewardSets
+---@class game-Scripts-RewardData*RewardSets
 
----@type SGG_Modding-Hades2GameDef-Scripts-RewardData*RewardSets
+---@type game-Scripts-RewardData*RewardSets
 game.RewardSets = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-RewardData.RewardSets ...
+---@alias game-Scripts-RewardData.RewardSets ...
 
 return game

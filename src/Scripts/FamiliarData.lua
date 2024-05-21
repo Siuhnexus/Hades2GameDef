@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-FamiliarData
+---@meta game-Scripts-FamiliarData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-FamiliarData*FamiliarData
+---@class game-Scripts-FamiliarData*FamiliarData
 
----@type SGG_Modding-Hades2GameDef-Scripts-FamiliarData*FamiliarData
+---@type game-Scripts-FamiliarData*FamiliarData
 game.FamiliarData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-FamiliarData.FamiliarData ...
+---@alias game-Scripts-FamiliarData.FamiliarData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-FamiliarData*FamiliarOrderData
+---@class game-Scripts-FamiliarData*FamiliarOrderData
 
----@type SGG_Modding-Hades2GameDef-Scripts-FamiliarData*FamiliarOrderData
+---@type game-Scripts-FamiliarData*FamiliarOrderData
 game.FamiliarOrderData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-FamiliarData.FamiliarOrderData ...
+---@alias game-Scripts-FamiliarData.FamiliarOrderData ...
 
 return game

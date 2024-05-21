@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ObjectiveData
+---@meta game-Scripts-ObjectiveData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-ObjectiveData*ObjectiveData
+---@class game-Scripts-ObjectiveData*ObjectiveData
 
----@type SGG_Modding-Hades2GameDef-Scripts-ObjectiveData*ObjectiveData
+---@type game-Scripts-ObjectiveData*ObjectiveData
 game.ObjectiveData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-ObjectiveData.ObjectiveData ...
+---@alias game-Scripts-ObjectiveData.ObjectiveData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-ObjectiveData*ObjectiveSetData
+---@class game-Scripts-ObjectiveData*ObjectiveSetData
 
----@type SGG_Modding-Hades2GameDef-Scripts-ObjectiveData*ObjectiveSetData
+---@type game-Scripts-ObjectiveData*ObjectiveSetData
 game.ObjectiveSetData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-ObjectiveData.ObjectiveSetData ...
+---@alias game-Scripts-ObjectiveData.ObjectiveSetData ...
 
 return game

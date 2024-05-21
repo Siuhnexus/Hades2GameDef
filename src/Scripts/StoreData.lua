@@ -1,16 +1,16 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-StoreData
+---@meta game-Scripts-StoreData
 local game = {}
 
----@class SGG_Modding-Hades2GameDef-Scripts-StoreData*StoreData
+---@class game-Scripts-StoreData*StoreData
 
----@type SGG_Modding-Hades2GameDef-Scripts-StoreData*StoreData
+---@type game-Scripts-StoreData*StoreData
 game.StoreData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-StoreData.StoreData ...
+---@alias game-Scripts-StoreData.StoreData ...
 
----@class SGG_Modding-Hades2GameDef-Scripts-StoreData*SurfaceShopData
+---@class game-Scripts-StoreData*SurfaceShopData
 
----@type SGG_Modding-Hades2GameDef-Scripts-StoreData*SurfaceShopData
+---@type game-Scripts-StoreData*SurfaceShopData
 game.SurfaceShopData = {}
----@alias SGG_Modding-Hades2GameDef-Scripts-StoreData.SurfaceShopData ...
+---@alias game-Scripts-StoreData.SurfaceShopData ...
 
 return game

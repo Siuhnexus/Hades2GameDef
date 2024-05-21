@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-WeaponData_Thug
+---@meta game-Scripts-WeaponData_Thug
 local game = {}
 
 return game

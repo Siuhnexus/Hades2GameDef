@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-TraitData_Apollo
+---@meta game-Scripts-TraitData_Apollo
 local game = {}
 
 return game

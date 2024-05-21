@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-BadgeData
+---@meta game-Scripts-BadgeData
 local game = {}
 
 return game

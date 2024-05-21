@@ -1,10 +1,10 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-ElementalPromptScreenLogic
+---@meta game-Scripts-ElementalPromptScreenLogic
 local game = {}
 
 function game.ExitElementalPromptScreen(a) end
----@alias SGG_Modding-Hades2GameDef-Scripts-ElementalPromptScreenLogic.ExitElementalPromptScreen ...
+---@alias game-Scripts-ElementalPromptScreenLogic.ExitElementalPromptScreen ...
 
 function game.OpenElementalPromptScreen(a) end
----@alias SGG_Modding-Hades2GameDef-Scripts-ElementalPromptScreenLogic.OpenElementalPromptScreen ...
+---@alias game-Scripts-ElementalPromptScreenLogic.OpenElementalPromptScreen ...
 
 return game

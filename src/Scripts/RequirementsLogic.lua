@@ -1,7 +1,7 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-RequirementsLogic
+---@meta game-Scripts-RequirementsLogic
 local game = {}
 
 function game.IsGameStateEligible(a, b, c, d) end
----@alias SGG_Modding-Hades2GameDef-Scripts-RequirementsLogic.IsGameStateEligible ...
+---@alias game-Scripts-RequirementsLogic.IsGameStateEligible ...
 
 return game

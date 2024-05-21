@@ -1,4 +1,4 @@
----@meta SGG_Modding-Hades2GameDef-Scripts-TraitData_Artemis
+---@meta game-Scripts-TraitData_Artemis
 local game = {}
 
 return game
